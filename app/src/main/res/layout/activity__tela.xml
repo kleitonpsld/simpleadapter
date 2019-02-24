@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".atividades.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/LabelId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_id" />
+
+        <EditText
+            android:id="@+id/txtId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_id"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/labelCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_cliente" />
+
+        <EditText
+            android:id="@+id/txtCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_cliente"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/labelData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_data" />
+
+        <EditText
+            android:id="@+id/txtData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_data"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/labelValor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_valor" />
+
+        <EditText
+            android:id="@+id/txtValor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_valor"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/labelProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_produto" />
+
+        <Spinner
+            android:id="@+id/spinnerProduto"
+            android:layout_width="match_parent"
+            android:hint="@string/hint_produto"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnSimpleAdapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="simpleAdapter"
+            android:text="@string/simple_adapter"/>
+
+        <Button
+            android:id="@+id/btnArrayAdapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="arrayAdapter"
+            android:text="@string/arrayadapter"/>
+
+        <Button
+            android:id="@+id/btnBaseAdapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="baseAdapter"
+            android:text="@string/baseadapter"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

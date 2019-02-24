@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SimpleAdapter</string>
+    <string name="label_id">Id</string>
+    <string name="hint_id">Id</string>
+    <string name="label_cliente">Cliente</string>
+    <string name="hint_cliente">Informe seu nome</string>
+    <string name="label_data">Data</string>
+    <string name="hint_data">Informe a data</string>
+    <string name="label_valor">Valor</string>
+    <string name="hint_valor">Informe o Valor</string>
+    <string name="label_produto">Produto</string>
+    <string name="hint_produto">Escolha o produto</string>
+    <string name="simple_adapter">simplesAdapter</string>
+    <string name="arrayadapter">arrayAdapter</string>
+    <string name="baseadapter">baseAdapter</string>
+    <string name="btn_adicionar">Adicionar</string>
+</resources>
